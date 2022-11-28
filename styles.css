@@ -75,7 +75,6 @@ body {
   background-color: ##ffffff;
   width: 1440px;
   height: 1080px;
-  border: 1px solid red;
   margin: 0 auto;
   font-family: Space Mono;
   padding-top: 40px;
@@ -85,7 +84,6 @@ body {
 header {
   color: #333333;
   font-size: 24px;
-  border: 1px solid red;
   margin-bottom: 200px;
 }
 
@@ -93,7 +91,7 @@ header {
   width: 100%;
   display: grid;
   grid-template-columns: 50% 50%;
-  border: 1px solid green;
+  margin-bottom: 280px;
 }
 
 .hero-left img {
@@ -123,4 +121,8 @@ button {
   background-color: #333333;
   color: #ffffff;
   cursor: pointer;
+}
+
+footer {
+  text-align: center;
 }
