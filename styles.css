@@ -71,3 +71,56 @@ h6 {
 }
 
 /* setting */
+body {
+  background-color: ##ffffff;
+  width: 1440px;
+  height: 1080px;
+  border: 1px solid red;
+  margin: 0 auto;
+  font-family: Space Mono;
+  padding-top: 40px;
+  padding-left: 77px;
+}
+
+header {
+  color: #333333;
+  font-size: 24px;
+  border: 1px solid red;
+  margin-bottom: 200px;
+}
+
+.hero {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  border: 1px solid green;
+}
+
+.hero-left img {
+  width: 539px;
+}
+
+.hero-right h1 {
+  font-size: 64px;
+  font-weight: 700;
+  color: #333333;
+  margin-bottom: 36px;
+}
+
+.hero-right p {
+  font-size: 24px;
+  color: #4f4f4f;
+  width: 381px;
+  margin-bottom: 64px;
+}
+
+button {
+  width: 216px;
+  height: 68px;
+  font-size: 14px;
+  padding: 23px 23px;
+  border: none;
+  background-color: #333333;
+  color: #ffffff;
+  cursor: pointer;
+}
